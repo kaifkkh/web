@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+ <header>
+    <h1>Contact us</h1>
+    <br>
+    <br>
+    <nav>
+        <ul>
+          <li><a href="web.html">Home</a></li>
+          <li><a href="servicepage.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="aboutus.html" class="active">About Us</a></li>
+        </ul>
+      </nav>
+  </header>
+  <form action="submit-form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    <div class="#">whatsapp link: <a href="#"></a>https://call.whatsapp.com/video/8Xz3hszyKt0UfUz60wqYsD</div>
+    <br>
+    <div href="fblogin.html">Facebook: <a href="#"></a>https://Message.Facebook.com/video/8Xz3hszyKt0UfUz60wqYsD</div>
+  </form>
+</body>
+</html>
